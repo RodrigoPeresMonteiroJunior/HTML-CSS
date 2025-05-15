@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: gray;
+        }
+        header{
+            padding: 10px;
+            background-color: white;
+            margin: 10px;
+
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+        }
+        article{
+            background-color: lightgray;
+            padding: 5px;
+        }
+        nav{
+            background-color: rgb(121, 120, 120);
+            padding: 3px;
+            box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.623);
+        }
+        nav > a{
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        article > aside{
+            background-color:rgb(130, 161, 172) ;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+    #assuntos{
+        background-color: lightgray;
+        text-align: center;
+        height: 20px;
+        
+    }
+div#bolas{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+<section id="assuntos">
+    <p>Sobre meu saco</p>
+</section>
+<section id="noticias">
+    <article>
+        <h2>Noticia sobre meu saco</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id numquam quas laboriosam vitae. Recusandae numquam dolorum dolorem aut repellat dicta odio, deserunt atque in, rem quod quidem? Impedit, dolorum ipsum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam eveniet ad obcaecati, sequi quia, illo maiores asperiores sint facere cum ab fugit? Commodi veniam mollitia reprehenderit, dolorum placeat temporibus fugiat. sacudão.</p>
+            <aside>
+                Artigo escrito por Pela saco
+            </aside>
+    </article>
+    <article>
+
+    </article>
+</section>
+    </main>
+    <footer>
+<p>desenvolvido pelo meu saco</p>
+    </footer>
+    <div id="bolas"></div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family:'comic' ;
+            src: url('fonts/Hey\ Comic.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+
+            /*
+            Tipos de Format()
+            - opentype (otf)
+            - truetype (ttf)
+            - embedded-opentype
+            - truetype-att (apple advanced typography)
+            - svg
+            */
+        }
+        body{
+        font-family: 'comic', Helvetica, sans-serif;
+        font-weight: normal;
+    
+        }
+        h1{
+            font-family: 'comic', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Titulo</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore, iure similique consequuntur dolores temporibus sint quia repellat neque autem rem, illo tempora in, ipsam explicabo deleniti minima. Provident, quod ea?</p>
+</body>
+</html>
